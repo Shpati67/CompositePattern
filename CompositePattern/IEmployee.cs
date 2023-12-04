@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-// The IEmployeeSortable interface defines methods to retrieve the name and wage of an employee for sorting
-public interface IEmployeeSortable
+// The IEmployee interface defines methods related to displaying and retrieving information about an employee
+public interface IEmployee
 {
+    // Method to display information about the employee
+    void Display();
+
     // Method to get the name of the employee
     string GetName();
 

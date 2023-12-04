@@ -1,4 +1,4 @@
-namespace CompositePatternTest
+namespace NUnitTests
 {
     public class Tests
     {
